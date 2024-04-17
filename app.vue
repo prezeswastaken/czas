@@ -15,6 +15,10 @@ onMounted(() => {
 </script>
 <template>
     <div class="flex justify-center items-center w-full min-h-screen bg-black">
-        <p class="font-mono text-white text-[300px]">{{ time }}</p>
+        <p
+            class="font-mono text-white text-[100px] sm:text-[150px] md:text-[200px] lg:text-[250px] xl:text-[350px] 2xl:text-[300px]"
+        >
+            {{ time }}
+        </p>
     </div>
 </template>

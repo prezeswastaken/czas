@@ -7,6 +7,7 @@ fn main() {
     .setup(|app| {
       let window = app.get_window("main").unwrap();
       let _ = window.set_decorations(false);
+      let _ = window.set_always_on_top(true);
       // Set the window to fullscreen
       Ok(())
     })

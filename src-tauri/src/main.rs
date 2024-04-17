@@ -8,7 +8,6 @@ fn main() {
       let window = app.get_window("main").unwrap();
       let _ = window.set_decorations(false);
       // Set the window to fullscreen
-      let _ = window.set_fullscreen(true);
       Ok(())
     })
     .run(tauri::generate_context!())
